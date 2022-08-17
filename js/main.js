@@ -47,7 +47,7 @@ window.addEventListener("load", () => {
       const submit = document.getElementById("submit");
       submit.addEventListener("click", () => {
         let operacionUTF8 = encodeURIComponent(operacion.value);
-        fetch(`http://api.mathjs.org/v4/?expr=${operacionUTF8}`)
+        fetch(`https://api.mathjs.org/v4/?expr=${operacionUTF8}`)
           .then((response) => response.json())
           .then((data) => {
             resultado.innerHTML = "Resultado = " + data;
