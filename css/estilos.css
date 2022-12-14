@@ -24,6 +24,10 @@ body {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
+.logo img {
+  border-radius: 12px;
+}
+
 .form-content .form-items {
   width: 100%;
   display: flex;
